@@ -42,8 +42,8 @@ let delay = 0;
 let totalCommits = 0;
 
 while (currentDate.isSameOrBefore(endDate, 'day')) {
-    // Random number of commits per day (1 to 1)
-    const commitsToday = getRandomInt(1, 1);
+    // Random number of commits per day (1 to 2)
+    const commitsToday = getRandomInt(1, 2);
     
     // Generate random times for commits throughout the day
     const commitTimes = [];
