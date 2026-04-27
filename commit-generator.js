@@ -31,8 +31,8 @@ const makeCommit = (date) => {
     });
 };
 
-// Generate commits from 2026-04-07 to 2026-04-27
-const startDate = moment('2026-04-07');
+// Generate commits from 2026-03-20 to 2026-04-27
+const startDate = moment('2026-03-20');
 const endDate = moment('2026-04-27');
 
 let currentDate = startDate.clone();
